@@ -21,6 +21,7 @@ public class Warrior extends GameCharacter{
     @Override
     public void play() {
         super.play();
-        System.out.println(weaponType);
+        System.out.println("Weapon type is: " + weaponType);
+        System.out.println();
     }
 }

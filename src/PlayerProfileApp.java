@@ -9,10 +9,10 @@ public class PlayerProfileApp {
         ArrayList<GameCharacter> listOfCharacters = new ArrayList<>();
         
         listOfCharacters.add(new Warrior("Mark", 10, 10, "Axe"));
-        listOfCharacters.add(new Warrior("Joya", 10,10, "sword"));
-        listOfCharacters.add(new Wizard("Antonella", 10,10,10, 10));
-        listOfCharacters.add(new Wizard("Mike", 10,10,10, 10));
-        listOfCharacters.add(new Wizard("Vernon", 10,10,10, 10));
+        listOfCharacters.add(new Warrior("Greg", 10,10, "Sword"));
+        listOfCharacters.add(new Wizard("Athena", 10,8,7, 5));
+        listOfCharacters.add(new Wizard("Denise", 4,3,6, 9));
+        listOfCharacters.add(new Wizard("April", 1,-1,10, 2));
 
         for (GameCharacter list: listOfCharacters) {
             list.play();

@@ -25,7 +25,8 @@ public class MagicUsingCharacter extends GameCharacter {
     @Override
     public void play() {
         super.play();
-        System.out.println(magicalEnergy);
+        System.out.println("Your magical energy is: " + magicalEnergy);
+        
 
     }
 

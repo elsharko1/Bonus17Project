@@ -21,6 +21,7 @@ public class Wizard extends MagicUsingCharacter {
     @Override
     public void play() {
         super.play();
-        System.out.println(spellNumber);
+        System.out.println("Your spell number is: " + spellNumber);
+        System.out.println();
     }
 }

@@ -38,8 +38,9 @@ public class GameCharacter {
     }
     public void play(){
         System.out.println("Name: " + name);
-        System.out.println(strength);
-        System.out.println(intelligence);
+        System.out.println("Strength: " + strength);
+        System.out.println("Intelligence: " + intelligence);
+
 
     }
 
