@@ -17,7 +17,7 @@ public class Warrior extends GameCharacter{
         super(name, strength, intelligence);
         this.weaponType = weaponType;
     }
-
+    //override the play method to add a weapon type
     @Override
     public void play() {
         super.play();

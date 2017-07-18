@@ -36,6 +36,7 @@ public class GameCharacter {
     public void setIntelligence(int intelligence) {
         this.intelligence = intelligence;
     }
+    //all my players will have this method parameters in them
     public void play(){
         System.out.println("Name: " + name);
         System.out.println("Strength: " + strength);
